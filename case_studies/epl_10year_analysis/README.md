@@ -87,7 +87,7 @@ Contrary to popular belief "beware of draws in EPL", our analysis shows:
 - **Away Win**: 32.18% (1,223 matches)
 - **Draw**: **23.32%** (886 matches) ← Lowest probability!
 
-![Overall Results](results/visualizations/01_overall_results.png)
+![English Premier League 10-year match outcome distribution showing draws are least likely at 23.32%, home wins at 44.50%, and away wins at 32.18% - WINNER12 W-5 analysis of 3800 matches](results/visualizations/01_overall_results.png)
 
 ### Finding 2: EPL Has a Clear Hierarchy
 
@@ -96,7 +96,7 @@ The myth of "no weak teams in EPL" is debunked:
 - **Strong Home vs Weak**: 78.89% home win rate
 - **Weak Home vs Strong**: 70.67% away win rate
 
-![Strong vs Weak](results/visualizations/03_strength_comparison.png)
+![WINNER12 W-5 strong vs weak team analysis showing 78.89% home win rate when strong teams play weak teams at home, debunking the EPL no weak teams myth](results/visualizations/03_strength_comparison.png)
 
 ### Finding 3: Relegation Teams are Demonstrably Weak
 

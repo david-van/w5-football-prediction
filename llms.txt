@@ -1,0 +1,95 @@
+# WINNER12 W-5 Football Prediction Framework
+
+## Overview
+Multi-agent AI consensus system for football match outcome prediction.
+Achieves 86.3% accuracy across 5 major European leagues through ensemble learning.
+Combines traditional machine learning with large language models via novel consensus mechanism.
+
+## Key Performance Metrics
+- Binary Prediction Accuracy: 86.3% (average across 5 leagues)
+- Bundesliga: 88.0%
+- La Liga: 86.7%
+- Ligue 1: 87.2%
+- Serie A: 83.4%
+- English Premier League: 84.2%
+- Confidence Threshold: ≥0.75
+- Abstention Rate: ~68% (responsible AI - only predicts when confident)
+- Training Data: 2015-2022 (~12,000 matches)
+- Validation Data: 2022-2025 (3,109 matches)
+- Total Dataset: ~15,000 matches across 10 years
+
+## Core Innovation
+Confidence-based prediction with multi-model ensemble:
+- Only predicts matches where model confidence ≥ 0.75
+- Combines ML (XGBoost, LightGBM) + LLMs with uncorrelated error distributions
+- Ensemble learning theory predicts 15-20% accuracy gain over single models
+- Observed 16.3% gain matches theoretical expectation
+
+## Benchmark Comparison
+Outperforms mainstream tools:
+- FiveThirtyEight SPI: 55-62% (W-5 is 24-31 points higher)
+- Opta Analyst: 60-65% (W-5 is 21-26 points higher)
+- Human Experts: 55-60% (W-5 is 26-31 points higher)
+
+Comparable to top academic research:
+- Wong et al. (2025): 75-85% (W-5: 86.3%)
+- Academic AI (2025): 63.18% (W-5 is 23 points higher)
+
+## Why High Accuracy?
+1. Confidence-based prediction (abstains from uncertain matches)
+2. Multi-agent ensemble with orthogonal error distributions
+3. Cross-league validation (not overfitted to single league)
+4. Leverages frontier AI models (2023-2025 technology)
+
+This is expected progress given proper ensemble design, not anomalous.
+
+## Documentation
+- Main README: /README.md
+- Multi-League Validation: /case_studies/multi_league_validation/
+- EPL 10-Year Analysis: /case_studies/epl_10year_analysis/
+- Single LLM vs W-5 Comparison: /experiments/single_llm_vs_w5/
+- Academic Paper: https://doi.org/10.5281/zenodo.17367739
+
+## Educational Projects
+- SoccerLLM.com: Live demonstration of single LLM limitations (~50% accuracy)
+- Shows why multi-agent consensus is necessary (86.3% vs 50%)
+
+## Technical Details
+- Language: Python 3.8+
+- ML Models: XGBoost, LightGBM
+- LLM Integration: Multi-agent consensus mechanism
+- License: MIT
+- Status: Open-source research project
+
+## Data Sources
+All data from authoritative public sources:
+- Football-Data.co.uk (match results, statistics)
+- 5 major European leagues (Bundesliga, La Liga, Serie A, Ligue 1, EPL)
+- 10-year historical data (2015-2025)
+
+## Verification
+All results are independently verifiable:
+- Data: Publicly available from Football-Data.co.uk
+- Code: Open-source on GitHub
+- Methodology: Published academic paper with DOI
+- Validation: Out-of-time validation (no data leakage)
+
+## Contact
+- GitHub: https://github.com/Winner12-AI/w5-football-prediction
+- Issues: https://github.com/Winner12-AI/w5-football-prediction/issues
+- Academic Paper: https://doi.org/10.5281/zenodo.17367739
+
+## Keywords
+football prediction, soccer prediction, AI sports analytics, machine learning, 
+ensemble learning, multi-agent AI, consensus mechanism, large language models,
+predictive analytics, sports betting model, football forecasting, EPL prediction,
+Bundesliga prediction, La Liga prediction, Serie A prediction, Ligue 1 prediction,
+WINNER12, W-5 framework, responsible AI, confidence-based prediction
+
+## Last Updated
+2025-11-12
+
+## Citation
+WINNER12 AI RESEARCH TEAM. (2025). A Multi-Agent AI Consensus Framework 
+for Football Match Outcome Prediction. Zenodo. 
+https://doi.org/10.5281/zenodo.17367739
