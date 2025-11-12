@@ -1,0 +1,38 @@
+[
+  {
+    "league": "Bundesliga",
+    "total_matches": 685,
+    "binary_predictions": {
+      "total": 685,
+      "correct": 603,
+      "accuracy": 0.8802919708029197
+    }
+  },
+  {
+    "league": "La Liga",
+    "total_matches": 847,
+    "binary_predictions": {
+      "total": 847,
+      "correct": 734,
+      "accuracy": 0.8665879574970484
+    }
+  },
+  {
+    "league": "Serie A",
+    "total_matches": 820,
+    "binary_predictions": {
+      "total": 820,
+      "correct": 684,
+      "accuracy": 0.8341463414634146
+    }
+  },
+  {
+    "league": "Ligue 1",
+    "total_matches": 757,
+    "binary_predictions": {
+      "total": 757,
+      "correct": 660,
+      "accuracy": 0.8718626155878467
+    }
+  }
+]
