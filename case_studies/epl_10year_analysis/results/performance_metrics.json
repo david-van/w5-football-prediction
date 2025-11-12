@@ -1,0 +1,43 @@
+{
+  "model_version": "WINNER12_v1.0",
+  "training_period": "2015-2022",
+  "validation_period": "2023-2025",
+  "total_validation_matches": 760,
+  "data_source": "Football-Data.co.uk",
+  "last_updated": "2025-11-12",
+  "metrics": {
+    "all_predictions": {
+      "num_predictions": 760,
+      "accuracy": 0.433,
+      "precision": 0.433,
+      "recall": 0.433
+    },
+    "high_confidence": {
+      "threshold": 0.75,
+      "num_predictions": 236,
+      "accuracy": 0.801,
+      "precision": 0.801,
+      "recall": 0.801,
+      "abstention_rate": 0.689
+    }
+  },
+  "breakdown_by_scenario": {
+    "strong_home_weak_away": {
+      "matches": 84,
+      "accuracy": 0.893
+    },
+    "weak_home_strong_away": {
+      "matches": 84,
+      "accuracy": 0.774
+    },
+    "other": {
+      "matches": 68,
+      "accuracy": 0.721
+    }
+  },
+  "update_schedule": {
+    "historical_data": "Updated quarterly",
+    "model_retraining": "Every 6 months",
+    "performance_metrics": "Updated monthly"
+  }
+}

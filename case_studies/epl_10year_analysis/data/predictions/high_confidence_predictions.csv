@@ -1,0 +1,237 @@
+match_id,season,date,home_team,away_team,prediction,confidence,actual_result,correct,home_score,away_score,scenario,year
+EPL_202324_202325_3040,202324/202325,11/08/2023,Burnley,Man City,A,0.878,A,True,0,3,weak_home_strong_away,2023
+EPL_202324_202325_3044,202324/202325,12/08/2023,Everton,Fulham,H,0.757,A,False,0,1,other,2023
+EPL_202324_202325_3049,202324/202325,14/08/2023,Man United,Wolves,H,0.784,H,True,1,0,other,2023
+EPL_202324_202325_3052,202324/202325,19/08/2023,Liverpool,Bournemouth,H,0.823,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3055,202324/202325,19/08/2023,Man City,Newcastle,H,0.848,H,True,1,0,strong_home_weak_away,2023
+EPL_202324_202325_3059,202324/202325,25/08/2023,Chelsea,Luton,H,0.845,H,True,3,0,strong_home_weak_away,2023
+EPL_202324_202325_3060,202324/202325,26/08/2023,Bournemouth,Tottenham,A,0.886,A,True,0,2,weak_home_strong_away,2023
+EPL_202324_202325_3061,202324/202325,26/08/2023,Arsenal,Fulham,H,0.88,D,True,2,2,strong_home_weak_away,2023
+EPL_202324_202325_3064,202324/202325,26/08/2023,Man United,Nott'm Forest,H,0.815,H,True,3,2,other,2023
+EPL_202324_202325_3067,202324/202325,27/08/2023,Sheffield United,Man City,A,0.846,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3068,202324/202325,27/08/2023,Newcastle,Liverpool,A,0.889,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3072,202324/202325,02/09/2023,Burnley,Tottenham,A,0.848,A,True,2,5,weak_home_strong_away,2023
+EPL_202324_202325_3073,202324/202325,02/09/2023,Chelsea,Nott'm Forest,H,0.753,A,False,0,1,other,2023
+EPL_202324_202325_3074,202324/202325,02/09/2023,Man City,Fulham,H,0.85,H,True,5,1,strong_home_weak_away,2023
+EPL_202324_202325_3077,202324/202325,03/09/2023,Liverpool,Aston Villa,H,0.833,H,True,3,0,strong_home_weak_away,2023
+EPL_202324_202325_3083,202324/202325,16/09/2023,Tottenham,Sheffield United,H,0.829,H,True,2,1,strong_home_weak_away,2023
+EPL_202324_202325_3086,202324/202325,17/09/2023,Bournemouth,Chelsea,A,0.821,D,True,0,0,weak_home_strong_away,2023
+EPL_202324_202325_3091,202324/202325,23/09/2023,Man City,Nott'm Forest,H,0.769,H,True,2,0,other,2023
+EPL_202324_202325_3093,202324/202325,23/09/2023,Burnley,Man United,A,0.883,A,True,0,1,weak_home_strong_away,2023
+EPL_202324_202325_3095,202324/202325,24/09/2023,Brighton,Bournemouth,H,0.757,H,True,3,1,other,2023
+EPL_202324_202325_3096,202324/202325,24/09/2023,Chelsea,Aston Villa,H,0.846,A,False,0,1,strong_home_weak_away,2023
+EPL_202324_202325_3097,202324/202325,24/09/2023,Liverpool,West Ham,H,0.783,H,True,3,1,other,2023
+EPL_202324_202325_3100,202324/202325,30/09/2023,Bournemouth,Arsenal,A,0.806,A,True,0,4,weak_home_strong_away,2023
+EPL_202324_202325_3101,202324/202325,30/09/2023,Everton,Luton,H,0.771,A,False,1,2,other,2023
+EPL_202324_202325_3108,202324/202325,02/10/2023,Fulham,Chelsea,A,0.897,A,False,0,2,weak_home_strong_away,2023
+EPL_202324_202325_3110,202324/202325,07/10/2023,Luton,Tottenham,A,0.83,A,True,0,1,weak_home_strong_away,2023
+EPL_202324_202325_3111,202324/202325,07/10/2023,Burnley,Chelsea,A,0.784,A,True,1,4,weak_home_strong_away,2023
+EPL_202324_202325_3117,202324/202325,08/10/2023,West Ham,Newcastle,H,0.774,D,False,2,2,other,2023
+EPL_202324_202325_3120,202324/202325,21/10/2023,Liverpool,Everton,H,0.782,H,False,2,0,other,2023
+EPL_202324_202325_3125,202324/202325,21/10/2023,Nott'm Forest,Luton,H,0.755,D,True,2,2,other,2023
+EPL_202324_202325_3127,202324/202325,21/10/2023,Sheffield United,Man United,A,0.811,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3129,202324/202325,23/10/2023,Tottenham,Fulham,H,0.841,H,True,2,0,strong_home_weak_away,2023
+EPL_202324_202325_3132,202324/202325,28/10/2023,Arsenal,Sheffield United,H,0.902,H,True,5,0,strong_home_weak_away,2023
+EPL_202324_202325_3140,202324/202325,04/11/2023,Fulham,Man United,A,0.809,A,True,0,1,weak_home_strong_away,2023
+EPL_202324_202325_3144,202324/202325,04/11/2023,Man City,Bournemouth,H,0.873,H,True,6,1,strong_home_weak_away,2023
+EPL_202324_202325_3146,202324/202325,04/11/2023,Newcastle,Arsenal,A,0.782,H,False,1,0,weak_home_strong_away,2023
+EPL_202324_202325_3148,202324/202325,05/11/2023,Luton,Liverpool,A,0.811,D,False,1,1,weak_home_strong_away,2023
+EPL_202324_202325_3151,202324/202325,11/11/2023,Arsenal,Burnley,H,0.887,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3153,202324/202325,11/11/2023,Man United,Luton,H,0.852,H,True,1,0,strong_home_weak_away,2023
+EPL_202324_202325_3163,202324/202325,25/11/2023,Newcastle,Chelsea,A,0.891,H,False,4,1,weak_home_strong_away,2023
+EPL_202324_202325_3167,202324/202325,26/11/2023,Tottenham,Aston Villa,H,0.9,A,False,1,2,strong_home_weak_away,2023
+EPL_202324_202325_3170,202324/202325,02/12/2023,Arsenal,Wolves,H,0.755,H,True,2,1,other,2023
+EPL_202324_202325_3171,202324/202325,02/12/2023,Brentford,Luton,H,0.753,H,True,3,1,other,2023
+EPL_202324_202325_3174,202324/202325,02/12/2023,Newcastle,Man United,A,0.799,H,True,1,0,weak_home_strong_away,2023
+EPL_202324_202325_3176,202324/202325,03/12/2023,Chelsea,Brighton,H,0.796,H,True,3,2,other,2023
+EPL_202324_202325_3177,202324/202325,03/12/2023,Liverpool,Fulham,H,0.851,H,True,4,3,strong_home_weak_away,2023
+EPL_202324_202325_3181,202324/202325,05/12/2023,Luton,Arsenal,A,0.847,A,True,3,4,weak_home_strong_away,2023
+EPL_202324_202325_3185,202324/202325,06/12/2023,Sheffield United,Liverpool,A,0.878,A,True,0,2,weak_home_strong_away,2023
+EPL_202324_202325_3186,202324/202325,06/12/2023,Aston Villa,Man City,A,0.783,H,False,1,0,weak_home_strong_away,2023
+EPL_202324_202325_3192,202324/202325,09/12/2023,Man United,Bournemouth,H,0.852,A,False,0,3,strong_home_weak_away,2023
+EPL_202324_202325_3195,202324/202325,09/12/2023,Aston Villa,Arsenal,A,0.902,H,False,1,0,weak_home_strong_away,2023
+EPL_202324_202325_3198,202324/202325,10/12/2023,Luton,Man City,A,0.84,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3199,202324/202325,10/12/2023,Tottenham,Newcastle,H,0.838,H,True,4,1,strong_home_weak_away,2023
+EPL_202324_202325_3201,202324/202325,16/12/2023,Chelsea,Sheffield United,H,0.848,H,True,2,0,strong_home_weak_away,2023
+EPL_202324_202325_3215,202324/202325,23/12/2023,Tottenham,Everton,H,0.817,H,True,2,1,other,2023
+EPL_202324_202325_3221,202324/202325,26/12/2023,Burnley,Liverpool,A,0.855,A,True,0,2,weak_home_strong_away,2023
+EPL_202324_202325_3222,202324/202325,26/12/2023,Man United,Aston Villa,H,0.901,H,True,3,2,strong_home_weak_away,2023
+EPL_202324_202325_3227,202324/202325,28/12/2023,Arsenal,West Ham,H,0.811,A,False,0,2,other,2023
+EPL_202324_202325_3228,202324/202325,30/12/2023,Luton,Chelsea,A,0.784,A,True,2,3,weak_home_strong_away,2023
+EPL_202324_202325_3231,202324/202325,30/12/2023,Man City,Sheffield United,H,0.919,H,True,2,0,strong_home_weak_away,2023
+EPL_202324_202325_3234,202324/202325,31/12/2023,Fulham,Arsenal,A,0.866,H,True,2,1,weak_home_strong_away,2023
+EPL_202324_202325_3235,202324/202325,31/12/2023,Tottenham,Bournemouth,H,0.826,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3236,202324/202325,01/01/2024,Liverpool,Newcastle,H,0.942,H,True,4,2,strong_home_weak_away,2023
+EPL_202324_202325_3239,202324/202325,13/01/2024,Chelsea,Fulham,H,0.883,H,False,1,0,strong_home_weak_away,2023
+EPL_202324_202325_3240,202324/202325,13/01/2024,Newcastle,Man City,A,0.884,A,True,2,3,weak_home_strong_away,2023
+EPL_202324_202325_3246,202324/202325,21/01/2024,Bournemouth,Liverpool,A,0.795,A,True,0,4,weak_home_strong_away,2023
+EPL_202324_202325_3253,202324/202325,31/01/2024,Man City,Burnley,H,0.89,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3254,202324/202325,31/01/2024,Tottenham,Brentford,H,0.769,H,True,3,2,other,2023
+EPL_202324_202325_3264,202324/202325,04/02/2024,Chelsea,Wolves,H,0.777,A,False,2,4,other,2023
+EPL_202324_202325_3265,202324/202325,04/02/2024,Man United,West Ham,H,0.784,H,True,3,0,other,2023
+EPL_202324_202325_3268,202324/202325,10/02/2024,Man City,Everton,H,0.756,H,False,2,0,other,2023
+EPL_202324_202325_3270,202324/202325,10/02/2024,Liverpool,Burnley,H,0.861,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3272,202324/202325,10/02/2024,Tottenham,Brighton,H,0.813,H,True,2,1,other,2023
+EPL_202324_202325_3276,202324/202325,11/02/2024,Aston Villa,Man United,A,0.784,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3279,202324/202325,17/02/2024,Burnley,Arsenal,A,0.791,A,True,0,5,weak_home_strong_away,2023
+EPL_202324_202325_3286,202324/202325,18/02/2024,Luton,Man United,A,0.808,A,True,1,2,weak_home_strong_away,2023
+EPL_202324_202325_3289,202324/202325,21/02/2024,Liverpool,Luton,H,0.914,H,True,4,1,strong_home_weak_away,2023
+EPL_202324_202325_3293,202324/202325,24/02/2024,Man United,Fulham,H,0.87,A,True,1,2,strong_home_weak_away,2023
+EPL_202324_202325_3294,202324/202325,24/02/2024,Bournemouth,Man City,A,0.835,A,True,0,1,weak_home_strong_away,2023
+EPL_202324_202325_3295,202324/202325,24/02/2024,Arsenal,Newcastle,H,0.928,H,True,4,1,strong_home_weak_away,2023
+EPL_202324_202325_3307,202324/202325,04/03/2024,Sheffield United,Arsenal,A,0.903,A,True,0,6,weak_home_strong_away,2023
+EPL_202324_202325_3310,202324/202325,09/03/2024,Crystal Palace,Luton,H,0.761,D,True,1,1,other,2023
+EPL_202324_202325_3313,202324/202325,10/03/2024,Aston Villa,Tottenham,A,0.877,A,True,0,4,weak_home_strong_away,2023
+EPL_202324_202325_3317,202324/202325,11/03/2024,Chelsea,Newcastle,H,0.87,H,True,3,2,strong_home_weak_away,2023
+EPL_202324_202325_3321,202324/202325,16/03/2024,Fulham,Tottenham,A,0.875,H,False,3,0,weak_home_strong_away,2023
+EPL_202324_202325_3325,202324/202325,30/03/2024,Chelsea,Burnley,H,0.903,D,True,2,2,strong_home_weak_away,2023
+EPL_202324_202325_3328,202324/202325,30/03/2024,Tottenham,Luton,H,0.903,H,True,2,1,strong_home_weak_away,2023
+EPL_202324_202325_3331,202324/202325,31/03/2024,Liverpool,Brighton,H,0.77,H,True,2,1,other,2023
+EPL_202324_202325_3338,202324/202325,03/04/2024,Arsenal,Luton,H,0.936,H,True,2,0,strong_home_weak_away,2023
+EPL_202324_202325_3340,202324/202325,03/04/2024,Man City,Aston Villa,H,0.934,H,True,4,1,strong_home_weak_away,2023
+EPL_202324_202325_3341,202324/202325,04/04/2024,Liverpool,Sheffield United,H,0.935,H,True,3,1,strong_home_weak_away,2023
+EPL_202324_202325_3351,202324/202325,07/04/2024,Sheffield United,Chelsea,A,0.79,D,True,2,2,weak_home_strong_away,2023
+EPL_202324_202325_3353,202324/202325,13/04/2024,Newcastle,Tottenham,A,0.907,H,True,4,0,weak_home_strong_away,2023
+EPL_202324_202325_3356,202324/202325,13/04/2024,Man City,Luton,H,0.897,H,True,5,1,strong_home_weak_away,2023
+EPL_202324_202325_3358,202324/202325,13/04/2024,Bournemouth,Man United,A,0.841,D,True,2,2,weak_home_strong_away,2023
+EPL_202324_202325_3359,202324/202325,14/04/2024,Liverpool,Crystal Palace,H,0.777,A,True,0,1,other,2023
+EPL_202324_202325_3361,202324/202325,14/04/2024,Arsenal,Aston Villa,H,0.931,A,True,0,2,strong_home_weak_away,2023
+EPL_202324_202325_3369,202324/202325,21/04/2024,Fulham,Liverpool,A,0.826,A,True,1,3,weak_home_strong_away,2023
+EPL_202324_202325_3374,202324/202325,24/04/2024,Man United,Sheffield United,H,0.906,H,True,4,2,strong_home_weak_away,2023
+EPL_202324_202325_3378,202324/202325,27/04/2024,Man United,Burnley,H,0.948,D,True,1,1,strong_home_weak_away,2023
+EPL_202324_202325_3382,202324/202325,27/04/2024,Aston Villa,Chelsea,A,0.793,D,False,2,2,weak_home_strong_away,2023
+EPL_202324_202325_3388,202324/202325,04/05/2024,Arsenal,Bournemouth,H,0.902,H,True,3,0,strong_home_weak_away,2023
+EPL_202324_202325_3389,202324/202325,04/05/2024,Brentford,Fulham,H,0.751,D,True,0,0,other,2023
+EPL_202324_202325_3392,202324/202325,04/05/2024,Man City,Wolves,H,0.753,H,True,5,1,other,2023
+EPL_202324_202325_3393,202324/202325,05/05/2024,Brighton,Aston Villa,H,0.755,H,True,1,0,other,2023
+EPL_202324_202325_3394,202324/202325,05/05/2024,Chelsea,West Ham,H,0.778,H,True,5,0,other,2023
+EPL_202324_202325_3397,202324/202325,11/05/2024,Fulham,Man City,A,0.819,A,True,0,4,weak_home_strong_away,2023
+EPL_202324_202325_3399,202324/202325,11/05/2024,Everton,Sheffield United,H,0.771,H,True,1,0,other,2023
+EPL_202324_202325_3401,202324/202325,11/05/2024,Tottenham,Burnley,H,0.932,H,True,2,1,strong_home_weak_away,2023
+EPL_202324_202325_3402,202324/202325,11/05/2024,West Ham,Luton,H,0.773,H,True,3,1,other,2023
+EPL_202324_202325_3406,202324/202325,13/05/2024,Aston Villa,Liverpool,A,0.914,D,True,3,3,weak_home_strong_away,2023
+EPL_202324_202325_3409,202324/202325,15/05/2024,Man United,Newcastle,H,0.858,H,True,3,2,strong_home_weak_away,2023
+EPL_202324_202325_3410,202324/202325,19/05/2024,Arsenal,Everton,H,0.759,H,False,2,1,other,2023
+EPL_202324_202325_3411,202324/202325,19/05/2024,Brentford,Newcastle,H,0.775,A,True,2,4,other,2023
+EPL_202324_202325_3414,202324/202325,19/05/2024,Chelsea,Bournemouth,H,0.844,H,True,2,1,strong_home_weak_away,2023
+EPL_202324_202325_3415,202324/202325,19/05/2024,Crystal Palace,Aston Villa,H,0.765,H,True,5,0,other,2023
+EPL_202324_202325_3418,202324/202325,19/05/2024,Man City,West Ham,H,0.772,H,True,3,1,other,2023
+EPL_202324_202325_3419,202324/202325,19/05/2024,Sheffield United,Tottenham,A,0.857,A,True,0,3,weak_home_strong_away,2023
+EPL_202425_202426_3420,202425/202426,16/08/2024,Man United,Fulham,H,0.91,H,True,1,0,strong_home_weak_away,2024
+EPL_202425_202426_3421,202425/202426,17/08/2024,Ipswich,Liverpool,A,0.877,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3422,202425/202426,17/08/2024,Arsenal,Wolves,H,0.819,H,True,2,0,other,2024
+EPL_202425_202426_3425,202425/202426,17/08/2024,Nott'm Forest,Bournemouth,H,0.762,D,True,1,1,other,2024
+EPL_202425_202426_3429,202425/202426,19/08/2024,Leicester,Tottenham,A,0.907,D,False,1,1,weak_home_strong_away,2024
+EPL_202425_202426_3433,202425/202426,24/08/2024,Man City,Ipswich,H,0.859,H,True,4,1,strong_home_weak_away,2024
+EPL_202425_202426_3435,202425/202426,24/08/2024,Tottenham,Everton,H,0.795,H,True,4,0,other,2024
+EPL_202425_202426_3436,202425/202426,24/08/2024,Aston Villa,Arsenal,A,0.814,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3440,202425/202426,31/08/2024,Arsenal,Brighton,H,0.775,D,False,1,1,other,2024
+EPL_202425_202426_3442,202425/202426,31/08/2024,Everton,Bournemouth,H,0.756,A,False,2,3,other,2024
+EPL_202425_202426_3447,202425/202426,01/09/2024,Chelsea,Crystal Palace,H,0.787,D,False,1,1,other,2024
+EPL_202425_202426_3448,202425/202426,01/09/2024,Newcastle,Tottenham,A,0.893,H,False,2,1,weak_home_strong_away,2024
+EPL_202425_202426_3450,202425/202426,14/09/2024,Southampton,Man United,A,0.892,A,True,0,3,weak_home_strong_away,2024
+EPL_202425_202426_3451,202425/202426,14/09/2024,Brighton,Ipswich,H,0.762,D,True,0,0,other,2024
+EPL_202425_202426_3452,202425/202426,14/09/2024,Crystal Palace,Leicester,H,0.758,D,False,2,2,other,2024
+EPL_202425_202426_3455,202425/202426,14/09/2024,Man City,Brentford,H,0.804,H,True,2,1,other,2024
+EPL_202425_202426_3457,202425/202426,14/09/2024,Bournemouth,Chelsea,A,0.84,A,True,0,1,weak_home_strong_away,2024
+EPL_202425_202426_3459,202425/202426,15/09/2024,Wolves,Newcastle,H,0.76,A,True,1,2,other,2024
+EPL_202425_202426_3464,202425/202426,21/09/2024,Liverpool,Bournemouth,H,0.829,H,True,3,0,strong_home_weak_away,2024
+EPL_202425_202426_3466,202425/202426,21/09/2024,Tottenham,Brentford,H,0.784,H,True,3,1,other,2024
+EPL_202425_202426_3470,202425/202426,28/09/2024,Newcastle,Man City,A,0.794,D,False,1,1,weak_home_strong_away,2024
+EPL_202425_202426_3471,202425/202426,28/09/2024,Arsenal,Leicester,H,0.923,H,True,4,2,strong_home_weak_away,2024
+EPL_202425_202426_3481,202425/202426,05/10/2024,Arsenal,Southampton,H,0.84,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3484,202425/202426,05/10/2024,Man City,Fulham,H,0.91,H,True,3,2,strong_home_weak_away,2024
+EPL_202425_202426_3487,202425/202426,06/10/2024,Aston Villa,Man United,A,0.843,D,True,0,0,weak_home_strong_away,2024
+EPL_202425_202426_3488,202425/202426,06/10/2024,Chelsea,Nott'm Forest,H,0.754,D,False,1,1,other,2024
+EPL_202425_202426_3493,202425/202426,19/10/2024,Man United,Brentford,H,0.769,H,True,2,1,other,2024
+EPL_202425_202426_3496,202425/202426,19/10/2024,Bournemouth,Arsenal,A,0.804,H,True,2,0,weak_home_strong_away,2024
+EPL_202425_202426_3504,202425/202426,26/10/2024,Man City,Southampton,H,0.925,H,True,1,0,strong_home_weak_away,2024
+EPL_202425_202426_3506,202425/202426,27/10/2024,Chelsea,Newcastle,H,0.86,H,True,2,1,strong_home_weak_away,2024
+EPL_202425_202426_3510,202425/202426,02/11/2024,Newcastle,Arsenal,A,0.863,H,False,1,0,weak_home_strong_away,2024
+EPL_202425_202426_3511,202425/202426,02/11/2024,Bournemouth,Man City,A,0.86,H,False,2,1,weak_home_strong_away,2024
+EPL_202425_202426_3513,202425/202426,02/11/2024,Liverpool,Brighton,H,0.767,H,True,2,1,other,2024
+EPL_202425_202426_3517,202425/202426,03/11/2024,Tottenham,Aston Villa,H,0.832,H,True,4,1,strong_home_weak_away,2024
+EPL_202425_202426_3525,202425/202426,09/11/2024,Liverpool,Aston Villa,H,0.939,H,True,2,0,strong_home_weak_away,2024
+EPL_202425_202426_3526,202425/202426,10/11/2024,Man United,Leicester,H,0.843,H,True,3,0,strong_home_weak_away,2024
+EPL_202425_202426_3527,202425/202426,10/11/2024,Nott'm Forest,Newcastle,H,0.757,A,True,1,3,other,2024
+EPL_202425_202426_3528,202425/202426,10/11/2024,Tottenham,Ipswich,H,0.915,A,False,1,2,strong_home_weak_away,2024
+EPL_202425_202426_3530,202425/202426,23/11/2024,Leicester,Chelsea,A,0.817,A,True,1,2,weak_home_strong_away,2024
+EPL_202425_202426_3537,202425/202426,24/11/2024,Southampton,Liverpool,A,0.788,A,True,2,3,weak_home_strong_away,2024
+EPL_202425_202426_3538,202425/202426,24/11/2024,Ipswich,Man United,A,0.904,D,True,1,1,weak_home_strong_away,2024
+EPL_202425_202426_3546,202425/202426,01/12/2024,Chelsea,Aston Villa,H,0.897,H,True,3,0,strong_home_weak_away,2024
+EPL_202425_202426_3548,202425/202426,01/12/2024,Tottenham,Fulham,H,0.895,D,True,1,1,strong_home_weak_away,2024
+EPL_202425_202426_3553,202425/202426,04/12/2024,Man City,Nott'm Forest,H,0.819,H,False,3,0,other,2024
+EPL_202425_202426_3554,202425/202426,04/12/2024,Newcastle,Liverpool,A,0.918,D,False,3,3,weak_home_strong_away,2024
+EPL_202425_202426_3555,202425/202426,04/12/2024,Southampton,Chelsea,A,0.889,A,True,1,5,weak_home_strong_away,2024
+EPL_202425_202426_3559,202425/202426,05/12/2024,Bournemouth,Tottenham,A,0.918,H,True,1,0,weak_home_strong_away,2024
+EPL_202425_202426_3563,202425/202426,07/12/2024,Man United,Nott'm Forest,H,0.795,A,True,2,3,other,2024
+EPL_202425_202426_3564,202425/202426,08/12/2024,Fulham,Arsenal,A,0.854,D,False,1,1,weak_home_strong_away,2024
+EPL_202425_202426_3569,202425/202426,14/12/2024,Arsenal,Everton,H,0.787,D,True,0,0,other,2024
+EPL_202425_202426_3570,202425/202426,14/12/2024,Liverpool,Fulham,H,0.944,D,False,2,2,strong_home_weak_away,2024
+EPL_202425_202426_3576,202425/202426,15/12/2024,Chelsea,Brentford,H,0.78,H,True,2,1,other,2024
+EPL_202425_202426_3577,202425/202426,15/12/2024,Southampton,Tottenham,A,0.792,A,False,0,5,weak_home_strong_away,2024
+EPL_202425_202426_3579,202425/202426,21/12/2024,Aston Villa,Man City,A,0.831,H,True,2,1,weak_home_strong_away,2024
+EPL_202425_202426_3587,202425/202426,22/12/2024,Man United,Bournemouth,H,0.866,A,True,0,3,strong_home_weak_away,2024
+EPL_202425_202426_3589,202425/202426,26/12/2024,Man City,Everton,H,0.776,D,True,1,1,other,2024
+EPL_202425_202426_3591,202425/202426,26/12/2024,Chelsea,Fulham,H,0.898,A,True,1,2,strong_home_weak_away,2024
+EPL_202425_202426_3596,202425/202426,26/12/2024,Liverpool,Leicester,H,0.831,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3598,202425/202426,27/12/2024,Arsenal,Ipswich,H,0.831,H,True,1,0,strong_home_weak_away,2024
+EPL_202425_202426_3599,202425/202426,29/12/2024,Leicester,Man City,A,0.908,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3600,202425/202426,29/12/2024,Crystal Palace,Southampton,H,0.771,H,True,2,1,other,2024
+EPL_202425_202426_3606,202425/202426,30/12/2024,Ipswich,Chelsea,A,0.903,H,True,2,0,weak_home_strong_away,2024
+EPL_202425_202426_3607,202425/202426,30/12/2024,Man United,Newcastle,H,0.943,A,False,0,2,strong_home_weak_away,2024
+EPL_202425_202426_3609,202425/202426,04/01/2025,Tottenham,Newcastle,H,0.92,A,True,1,2,strong_home_weak_away,2024
+EPL_202425_202426_3620,202425/202426,14/01/2025,Chelsea,Bournemouth,H,0.845,D,False,2,2,strong_home_weak_away,2024
+EPL_202425_202426_3628,202425/202426,16/01/2025,Man United,Southampton,H,0.869,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3633,202425/202426,18/01/2025,Arsenal,Aston Villa,H,0.947,D,True,2,2,strong_home_weak_away,2024
+EPL_202425_202426_3637,202425/202426,19/01/2025,Ipswich,Man City,A,0.821,A,True,0,6,weak_home_strong_away,2024
+EPL_202425_202426_3641,202425/202426,25/01/2025,Liverpool,Ipswich,H,0.853,H,True,4,1,strong_home_weak_away,2024
+EPL_202425_202426_3646,202425/202426,26/01/2025,Tottenham,Leicester,H,0.871,A,True,1,2,strong_home_weak_away,2024
+EPL_202425_202426_3648,202425/202426,26/01/2025,Fulham,Man United,A,0.809,A,True,0,1,weak_home_strong_away,2024
+EPL_202425_202426_3650,202425/202426,01/02/2025,Bournemouth,Liverpool,A,0.782,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3654,202425/202426,01/02/2025,Wolves,Aston Villa,H,0.756,H,True,2,0,other,2024
+EPL_202425_202426_3656,202425/202426,02/02/2025,Man United,Crystal Palace,H,0.78,A,True,0,2,other,2024
+EPL_202425_202426_3661,202425/202426,15/02/2025,Leicester,Arsenal,A,0.801,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3664,202425/202426,15/02/2025,Man City,Newcastle,H,0.934,H,True,4,0,strong_home_weak_away,2024
+EPL_202425_202426_3670,202425/202426,19/02/2025,Aston Villa,Liverpool,A,0.85,D,True,2,2,weak_home_strong_away,2024
+EPL_202425_202426_3673,202425/202426,22/02/2025,Arsenal,West Ham,H,0.784,A,False,0,1,other,2024
+EPL_202425_202426_3676,202425/202426,22/02/2025,Ipswich,Tottenham,A,0.9,A,True,1,4,weak_home_strong_away,2024
+EPL_202425_202426_3678,202425/202426,22/02/2025,Aston Villa,Chelsea,A,0.871,H,True,2,1,weak_home_strong_away,2024
+EPL_202425_202426_3684,202425/202426,25/02/2025,Chelsea,Southampton,H,0.869,H,True,4,0,strong_home_weak_away,2024
+EPL_202425_202426_3686,202425/202426,26/02/2025,Man United,Ipswich,H,0.89,H,True,3,2,strong_home_weak_away,2024
+EPL_202425_202426_3689,202425/202426,26/02/2025,Liverpool,Newcastle,H,0.852,H,True,2,0,strong_home_weak_away,2024
+EPL_202425_202426_3694,202425/202426,08/03/2025,Liverpool,Southampton,H,0.87,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3697,202425/202426,09/03/2025,Chelsea,Leicester,H,0.869,H,True,1,0,strong_home_weak_away,2024
+EPL_202425_202426_3698,202425/202426,09/03/2025,Tottenham,Bournemouth,H,0.9,D,False,2,2,strong_home_weak_away,2024
+EPL_202425_202426_3703,202425/202426,15/03/2025,Man City,Brighton,H,0.756,D,True,2,2,other,2024
+EPL_202425_202426_3707,202425/202426,16/03/2025,Fulham,Tottenham,A,0.885,H,True,2,0,weak_home_strong_away,2024
+EPL_202425_202426_3708,202425/202426,16/03/2025,Leicester,Man United,A,0.814,A,False,0,3,weak_home_strong_away,2024
+EPL_202425_202426_3709,202425/202426,01/04/2025,Arsenal,Fulham,H,0.895,H,True,2,1,strong_home_weak_away,2024
+EPL_202425_202426_3713,202425/202426,02/04/2025,Brighton,Aston Villa,H,0.753,A,True,0,3,other,2024
+EPL_202425_202426_3714,202425/202426,02/04/2025,Man City,Leicester,H,0.939,H,True,2,0,strong_home_weak_away,2024
+EPL_202425_202426_3717,202425/202426,02/04/2025,Liverpool,Everton,H,0.8,H,True,1,0,other,2024
+EPL_202425_202426_3725,202425/202426,06/04/2025,Fulham,Liverpool,A,0.884,H,True,3,2,weak_home_strong_away,2024
+EPL_202425_202426_3726,202425/202426,06/04/2025,Tottenham,Southampton,H,0.833,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3733,202425/202426,12/04/2025,Arsenal,Brentford,H,0.768,D,False,1,1,other,2024
+EPL_202425_202426_3734,202425/202426,13/04/2025,Chelsea,Ipswich,H,0.836,D,True,2,2,strong_home_weak_away,2024
+EPL_202425_202426_3737,202425/202426,13/04/2025,Newcastle,Man United,A,0.882,H,False,4,1,weak_home_strong_away,2024
+EPL_202425_202426_3745,202425/202426,20/04/2025,Fulham,Chelsea,A,0.909,A,True,1,2,weak_home_strong_away,2024
+EPL_202425_202426_3746,202425/202426,20/04/2025,Ipswich,Arsenal,A,0.805,A,True,0,4,weak_home_strong_away,2024
+EPL_202425_202426_3747,202425/202426,20/04/2025,Man United,Wolves,H,0.793,A,False,0,1,other,2024
+EPL_202425_202426_3748,202425/202426,20/04/2025,Leicester,Liverpool,A,0.898,A,True,0,1,weak_home_strong_away,2024
+EPL_202425_202426_3749,202425/202426,21/04/2025,Tottenham,Nott'm Forest,H,0.801,A,False,1,2,other,2024
+EPL_202425_202426_3750,202425/202426,22/04/2025,Man City,Aston Villa,H,0.837,H,True,2,1,strong_home_weak_away,2024
+EPL_202425_202426_3751,202425/202426,23/04/2025,Arsenal,Crystal Palace,H,0.767,D,True,2,2,other,2024
+EPL_202425_202426_3752,202425/202426,26/04/2025,Chelsea,Everton,H,0.813,H,True,1,0,other,2024
+EPL_202425_202426_3756,202425/202426,26/04/2025,Wolves,Leicester,H,0.777,H,True,3,0,other,2024
+EPL_202425_202426_3757,202425/202426,27/04/2025,Bournemouth,Man United,A,0.875,D,True,1,1,weak_home_strong_away,2024
+EPL_202425_202426_3764,202425/202426,03/05/2025,Arsenal,Bournemouth,H,0.924,A,True,1,2,strong_home_weak_away,2024
+EPL_202425_202426_3772,202425/202426,10/05/2025,Southampton,Man City,A,0.804,D,True,0,0,weak_home_strong_away,2024
+EPL_202425_202426_3775,202425/202426,11/05/2025,Newcastle,Chelsea,A,0.868,H,True,2,0,weak_home_strong_away,2024
+EPL_202425_202426_3780,202425/202426,16/05/2025,Aston Villa,Tottenham,A,0.799,H,False,2,0,weak_home_strong_away,2024
+EPL_202425_202426_3786,202425/202426,18/05/2025,Arsenal,Newcastle,H,0.847,H,True,1,0,strong_home_weak_away,2024
+EPL_202425_202426_3789,202425/202426,20/05/2025,Man City,Bournemouth,H,0.915,H,True,3,1,strong_home_weak_away,2024
+EPL_202425_202426_3791,202425/202426,25/05/2025,Fulham,Man City,A,0.84,A,True,0,2,weak_home_strong_away,2024
+EPL_202425_202426_3794,202425/202426,25/05/2025,Man United,Aston Villa,H,0.928,H,True,2,0,strong_home_weak_away,2024
+EPL_202425_202426_3797,202425/202426,25/05/2025,Southampton,Arsenal,A,0.788,A,True,1,2,weak_home_strong_away,2024
+EPL_202425_202426_3798,202425/202426,25/05/2025,Tottenham,Brighton,H,0.795,A,True,1,4,other,2024

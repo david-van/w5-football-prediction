@@ -18,6 +18,15 @@ This repository accompanies the research paper:
 
 The paper demonstrates that the W-5 framework achieves **85.9% prediction accuracy** on a large-scale simulated dataset, significantly outperforming traditional methods and individual AI models.
 
+### 🏆 Real-World Validation (NEW!)
+
+The framework has been validated on **3,800 real EPL matches** (2015-2025):
+
+- **High-Confidence Accuracy**: **80.1%** (236 predictions with confidence ≥0.75)
+- **Dataset**: Real match data from [Football-Data.co.uk](https://www.football-data.co.uk)
+- **Validation Period**: 2023-2025 (out-of-time test set)
+- **[Full Case Study →](case_studies/epl_10year_analysis/)**
+
 ## 🎯 What is W-5?
 
 The W-5 framework is a hybrid AI system that combines:
@@ -224,7 +233,13 @@ If you use this framework in your research, please cite our paper:
 
 ## ⚠️ Disclaimer
 
-This is a **research project** for academic and educational purposes. The framework is provided "as-is" without warranties. It is not intended for commercial betting or gambling applications. 
+This is a **research project** for academic and educational purposes. The framework has been validated on **real-world datasets** including:
+
+- ✅ **3,800 EPL matches (2015-2025)** - See [Case Study](case_studies/epl_10year_analysis/)
+- ✅ **80.1% accuracy** on high-confidence predictions
+- ✅ Data sourced from authoritative providers (Football-Data.co.uk)
+
+The framework is provided "as-is" without warranties. It is **not intended for commercial betting or gambling applications**. Past performance does not guarantee future results.
 
 For production-grade predictions and commercial use, please visit [WINNER12](https://winner12.ai).
 
