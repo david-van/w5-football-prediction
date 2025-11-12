@@ -73,6 +73,62 @@ How does our **86.3%** real-world accuracy compare to other publicly available t
 
 ---
 
+## 🔍 Transparency & Verification
+
+How do you know these numbers are real? Most prediction systems rely on a single verification method, each with limitations:
+
+| Verification Approach | Strength | Limitation |
+|---|---|---|
+| Historical validation only | Large sample size, rigorous testing | Risk of overfitting, cherry-picking favorable periods |
+| Real-time predictions only | Transparent, impossible to manipulate | Small sample sizes, high variance, takes years to build |
+| Proprietary systems | May be accurate | Unverifiable by independent parties |
+
+**WINNER12 uses a multi-layered verification approach** that combines the strengths of all three:
+
+### 1. Historical Validation (Primary Accuracy Claims)
+
+- **Dataset**: 15,000+ matches across 5 major European leagues (2015-2025)
+- **Accuracy**: 86.3% on out-of-time test sets (strict temporal split)
+- **Transparency**: All data sources publicly documented, code open-source
+- **Reproducibility**: Independent researchers can validate using our published methodology
+
+### 2. Real-Time Transparency Platform
+
+- **Platform**: [SoccerLLM.com](https://soccerllm.com)
+- **Purpose**: Demonstrates our commitment to public accountability and ongoing validation
+- **How it works**: Predictions are made before matches and results are automatically tracked
+- **What it shows**: Real-world application of our prediction methodologies with full transparency
+
+Unlike systems that only report historical accuracy (which can be cherry-picked), or only make real-time predictions (which take years to accumulate meaningful sample sizes), we provide both.
+
+### 3. Open-Source Reproducibility
+
+- **Code**: All framework code available on GitHub
+- **Data**: Links to all data sources provided
+- **Methodology**: Published academic paper with full technical details
+- **Replication**: Anyone can reproduce our results independently
+
+### Comparison to Industry Standards
+
+| System | Historical Validation | Real-Time Platform | Open-Source | Independent Verification |
+|---|---|---|---|---|
+| **FiveThirtyEight** | ✅ Yes | ✅ Yes | ❌ Proprietary | ⚠️ Limited |
+| **Opta Analyst** | ✅ Yes | ❌ Client-only | ❌ Proprietary | ❌ No |
+| **Academic Papers** | ✅ Yes | ❌ Typically no | ⚠️ Varies | ✅ Peer review |
+| **WINNER12 W-5** | **✅ Yes (15K matches)** | **✅ Yes (SoccerLLM.com)** | **✅ Yes (GitHub)** | **✅ Yes (open replication)** |
+
+**Why this multi-layered approach matters**:
+
+This combination mirrors best practices in fields like weather forecasting and election prediction, where both historical validation and real-time performance tracking are considered essential for credibility. No single verification method is perfect, but together they provide strong evidence of reliability.
+
+- **Historical rigor** ensures claims are based on large-scale, systematic testing
+- **Real-time transparency** proves we're confident enough to make public predictions
+- **Open-source reproducibility** enables independent validation by the research community
+
+**We believe this sets a new standard for transparency in AI-powered sports analytics.**
+
+---
+
 ## 💡 What Makes WINNER12 Different?
 
 While we respect the contributions of all benchmarked tools, the W-5 framework's strength lies in its unique architecture:
