@@ -58,7 +58,7 @@ This is expected progress given proper ensemble design, not anomalous.
 - Language: Python 3.8+
 - ML Models: XGBoost, LightGBM
 - LLM Integration: Multi-agent consensus mechanism
-- License: MIT
+- License: Apache 2.0
 - Status: Open-source research project
 
 ## Data Sources

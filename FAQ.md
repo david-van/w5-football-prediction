@@ -250,7 +250,7 @@ Check the [CHANGELOG.md](CHANGELOG.md) for update history.
 
 ### Can I use W-5 for my own league/sport?
 
-Yes! W-5 is open-source (MIT License). You can adapt it for:
+Yes! W-5 is open-source (Apache 2.0 License). You can adapt it for:
 
 - Other football leagues (MLS, J-League, etc.)
 - Other sports (basketball, tennis, etc.)
@@ -389,12 +389,13 @@ WINNER12 AI Research Team, "A Multi-Agent AI Consensus Framework for Football Ma
 
 ### Can I use WINNER12 in commercial projects?
 
-Yes, under the MIT License terms:
+Yes, under the Apache 2.0 License terms:
 - ✅ Commercial use allowed
 - ✅ Modification allowed
 - ✅ Distribution allowed
 - ⚠️ Must include original license and copyright notice
 - ⚠️ No warranty provided
+- ✅ Explicit patent grant (protects you from patent litigation)
 
 See [LICENSE](LICENSE) for full terms.
 
