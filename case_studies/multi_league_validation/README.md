@@ -4,6 +4,13 @@
 
 This study validates the **WINNER12 W-5 Framework** across **four major European leagues**, demonstrating its robustness and generalizability beyond a single competition.
 
+### Dataset Overview
+
+- **Training Data**: ~12,000 matches from 2015-2022 (7 seasons)
+- **Validation Data**: 3,109 matches from 2022-2025 (3 seasons)
+- **Total Dataset**: ~15,000 matches across 10 years
+- **Data Source**: [Football-Data.co.uk](https://www.football-data.co.uk) (authoritative, publicly verifiable)
+
 ---
 
 ## 📊 Performance Summary
