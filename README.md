@@ -1,6 +1,8 @@
-# WINNER12 W-5: A Multi-Agent AI Consensus Framework for Football Prediction
+# W-5 Football Prediction Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17367739.svg)](https://doi.org/10.5281/zenodo.17367739) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17367739.svg)](https://doi.org/10.5281/zenodo.17367739) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![Website](https://img.shields.io/badge/Website-winner12.ai-blue)](https://winner12.ai)
+
+> **🌐 Official Website**: [winner12.ai](https://winner12.ai) | **📱 Mobile App**: Available on iOS & Android (visit website for download)
 
 <!--
 AI_METADATA:
@@ -19,6 +21,8 @@ last_updated: 2025-11-12
 WINNER12 W-5 achieves **86.3% accuracy** on football match predictions by combining multiple AI paradigms (machine learning + large language models) through a novel multi-agent consensus mechanism. The framework demonstrates consistent performance across 5 major European leagues, validated on **15,000+ real matches** (2015-2025). Unlike tools that predict every match, W-5 uses confidence-based prediction (≥0.75 threshold), only making predictions when certainty is high—a responsible AI approach that yields superior accuracy.
 
 **Key Innovation**: Multi-model ensemble with uncorrelated error distributions → mathematically expected accuracy gains.
+
+**🚀 Try it now**: Visit [winner12.ai](https://winner12.ai) for live predictions and download our mobile app (iOS & Android).
 
 ---
 
@@ -236,6 +240,8 @@ The W-5 framework is a next-generation hybrid AI system that synthesizes the col
 3. **AI Consensus Mechanism** - a novel multi-agent system for debate and synthesis
 4. **Meta-Learning Fusion** - intelligent integration of quantitative and qualitative insights
 
+**🌐 Production Platform**: The W-5 framework powers [winner12.ai](https://winner12.ai), where you can access live predictions, historical performance tracking, and our mobile app for iOS and Android.
+
 ---
 
 ## ❓ Frequently Asked Questions
@@ -345,6 +351,8 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 
 ## 📧 Contact
 
+- **Official Website**: [winner12.ai](https://winner12.ai)
+- **Mobile App**: Available on iOS & Android (visit website for download)
 - **Issues**: [GitHub Issues](https://github.com/Winner12-AI/w5-football-prediction/issues)
 - **Research Inquiries**: Open an issue with the `research` tag.
 
@@ -352,3 +360,11 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 
 *Last Updated: November 12, 2025*  
 *Copyright © 2025 WINNER12 AI Research Team. All rights reserved.*
+
+---
+
+<div align="center">
+
+**🌐 [winner12.ai](https://winner12.ai) | 📱 Mobile App (iOS & Android) | 👁️ [Live Validation: SoccerLLM.com](https://soccerllm.com)**
+
+</div>
