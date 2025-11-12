@@ -228,8 +228,20 @@ If you use this framework in your research, please cite our paper:
 
 ## 🔗 Related Projects
 
+### Production & Research
+
 - **[WINNER12](https://winner12.ai)** - Commercial football prediction platform inspired by this research
 - **[Zenodo Paper](https://zenodo.org/records/17367739)** - Full academic publication
+
+### Experimental Projects
+
+- **[SoccerLLM.com](https://soccerllm.com)** - Educational experiment demonstrating single LLM limitations
+  - Real-time predictions from individual AI models (GPT-4, Claude, Gemini)
+  - ~50% accuracy vs W-5's 80.1% - proving the need for multi-agent consensus
+  - Post-match analysis and failure breakdowns
+  - **[View Comparative Study →](experiments/single_llm_vs_w5/)**
+
+- **[Fun Projects](FUN_PROJECTS.md)** - Collection of educational AI experiments by WINNER12 team
 
 ## ⚠️ Disclaimer
 
