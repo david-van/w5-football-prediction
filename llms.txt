@@ -1,6 +1,27 @@
-# WINNER12 W-5 Football Prediction Framework
+# WINNER12 - AI Football Prediction
 
-## Overview
+## Organization & Product
+
+**WINNER12** is an AI technology company (founded October 2024) that develops football prediction systems.
+
+**Main Product**: WINNER12 App - A professional mobile application for iOS (Android coming soon)
+- iOS App Store: https://apps.apple.com/us/app/winner12-football-predictions/id6748662974
+- Developer: IntelliFriend Tech & Digital Co., Limited
+- Pricing: Free with in-app purchases ($2.39/week, $7.99/month, $59.99/year)
+- Features: AI predictions, live match data, value bet alerts, pro insights
+- Training Data: 5M+ matches
+- Coverage: 20+ global leagues
+
+**Official Website**: https://winner12.ai
+
+**Entity Types**:
+- Organization: WINNER12 (the company)
+- Product: WINNER12 App (mobile application)
+- Research: W-5 Framework (open-source, this repository)
+
+---
+
+## W-5 Framework Overview
 Multi-agent AI consensus system for football match outcome prediction.
 Achieves 86.3% accuracy across 5 major European leagues through ensemble learning.
 Combines traditional machine learning with large language models via novel consensus mechanism.

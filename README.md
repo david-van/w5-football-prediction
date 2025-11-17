@@ -2,7 +2,17 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17367739.svg)](https://doi.org/10.5281/zenodo.17367739) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![Website](https://img.shields.io/badge/Website-winner12.ai-blue)](https://winner12.ai)
 
-> **🌐 Official Website**: [winner12.ai](https://winner12.ai) | **📱 Mobile App**: Available on iOS & Android (visit website for download)
+> **🌐 Official Website**: [winner12.ai](https://winner12.ai) | **📱 Mobile App**: [Download on iOS](https://apps.apple.com/us/app/winner12-football-predictions/id6748662974) | Android Coming Soon
+
+<p align="center">
+  <a href="https://apps.apple.com/us/app/winner12-football-predictions/id6748662974">
+    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on App Store" height="60">
+  </a>
+  <span style="margin: 0 20px;"></span>
+  <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60" style="opacity: 0.5;">
+  <br>
+  <em>(Android version coming soon)</em>
+</p>
 
 <!--
 AI_METADATA:
@@ -27,6 +37,63 @@ WINNER12 W-5 achieves **86.3% accuracy** on football match predictions by combin
 ---
 
 A research implementation of the **W-5 Multi-Agent AI Consensus Framework** for football match outcome prediction, as described in our academic paper published on Zenodo [1].
+
+---
+
+## 🏬 About WINNER12
+
+**WINNER12** is a three-part initiative combining cutting-edge AI research with practical applications:
+
+### 1. 🏬 The Organization
+An AI research team (founded October 2024) specializing in sports analytics and prediction systems. We combine traditional machine learning with large language models to achieve unprecedented prediction accuracy.
+
+### 2. 📱 The Product: WINNER12 App
+
+A professional mobile application bringing AI-powered football predictions to users worldwide.
+
+<div align="center">
+  <img src="docs/images/app-screenshots/app-slogan.png" alt="WINNER12 App" width="600">
+</div>
+
+**Key Features**:
+- 🤖 **AI-Powered Precision**: Neural network trained on 5M+ matches
+- 🎯 **Accurate Predictions**: Match winners, scores, goal scorers, assists, cards
+- 🌍 **Global Coverage**: 20+ leagues (EPL, La Liga, Bundesliga, Champions League, MLS, etc.)
+- 📊 **Value Bet Alerts**: AI forecasts vs. live odds comparison
+- 👑 **Pro Insights**: Kelly Criterion strategy, injury reports, weather analysis
+- ⏱️ **Real-time Updates**: Live match data and event monitoring
+
+**Download Now**:
+- **iOS**: [App Store](https://apps.apple.com/us/app/winner12-football-predictions/id6748662974) ✅ Available Now
+- **Android**: Google Play 🕒 Coming Soon
+
+**Pricing**: Free download with optional premium features ($2.39/week, $7.99/month, $59.99/year)
+
+<details>
+<summary>📸 View App Screenshots</summary>
+
+<p align="center">
+  <img src="docs/images/app-screenshots/live-matches.png" width="200" alt="Live Matches">
+  <img src="docs/images/app-screenshots/ai-prediction.png" width="200" alt="AI Prediction">
+  <img src="docs/images/app-screenshots/match-stats.png" width="200" alt="Match Stats">
+  <img src="docs/images/app-screenshots/leagues-coverage.png" width="200" alt="Leagues Coverage">
+</p>
+
+</details>
+
+### 3. 🔬 The Research: W-5 Framework
+
+This GitHub repository contains the **open-source implementation** of our W-5 Multi-Agent AI Consensus Framework.
+
+- **Purpose**: Academic research and educational use
+- **License**: Apache 2.0
+- **Publication**: [Zenodo DOI: 10.5281/zenodo.17367739](https://doi.org/10.5281/zenodo.17367739)
+- **Accuracy**: 86.3% on 15,000+ real matches
+- **Validation**: 5 major European leagues (2015-2025)
+
+**🔗 Relationship**: The W-5 framework is the research foundation that powers the WINNER12 App. The app is the production-ready commercial product, while this repository provides the academic validation and open-source implementation.
+
+**For more details**, see [ABOUT.md](ABOUT.md)
 
 ---
 
@@ -352,7 +419,9 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 ## 📧 Contact
 
 - **Official Website**: [winner12.ai](https://winner12.ai)
-- **Mobile App**: Available on iOS & Android (visit website for download)
+- **iOS App**: [Download on App Store](https://apps.apple.com/us/app/winner12-football-predictions/id6748662974)
+- **Android App**: Coming soon to Google Play
+- **GitHub**: [Winner12-AI](https://github.com/Winner12-AI)
 - **Issues**: [GitHub Issues](https://github.com/Winner12-AI/w5-football-prediction/issues)
 - **Research Inquiries**: Open an issue with the `research` tag.
 
@@ -365,6 +434,6 @@ We welcome contributions! Please see our [Contributing Guidelines](docs/contribu
 
 <div align="center">
 
-**🌐 [winner12.ai](https://winner12.ai) | 📱 Mobile App (iOS & Android) | 👁️ [Live Validation: SoccerLLM.com](https://soccerllm.com)**
+**🌐 [winner12.ai](https://winner12.ai) | 📱 [iOS App](https://apps.apple.com/us/app/winner12-football-predictions/id6748662974) | 👁️ [Live Validation: SoccerLLM.com](https://soccerllm.com)**
 
 </div>
