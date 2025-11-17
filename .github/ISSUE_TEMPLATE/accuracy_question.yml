@@ -1,0 +1,78 @@
+name: ❓ Accuracy Question
+description: Question or concern about prediction accuracy claims
+title: "[Accuracy] "
+labels: ["accuracy", "question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We welcome scrutiny! Transparency is key to building trust.
+        
+        **Our Accuracy Claims**:
+        - 86.3% accuracy across 15,000+ matches
+        - Verified on [SoccerLLM.com](https://soccerllm.com)
+        - Academic research published on [Zenodo](https://zenodo.org/records/17367739)
+        
+        If you have questions or concerns about these claims, please share below.
+  
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question or Concern
+      description: "What accuracy claim are you questioning?"
+      placeholder: "I noticed the claimed 86.3% accuracy, but when I tested 20 predictions myself, I only got 75% accuracy. Can you explain the discrepancy?"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or Data (Optional)
+      description: "If you have data that contradicts our claims, please share"
+      placeholder: |
+        I tested the following predictions:
+        1. Match A: Predicted X, Actual Y (Wrong)
+        2. Match B: Predicted X, Actual X (Correct)
+        ...
+        
+        My accuracy: 15/20 = 75%
+  
+  - type: dropdown
+    id: time-period
+    attributes:
+      label: Time Period
+      description: "When did you test the predictions?"
+      options:
+        - Last week
+        - Last month
+        - Last 3 months
+        - Last 6 months
+        - Other (please specify in comments)
+  
+  - type: dropdown
+    id: league
+    attributes:
+      label: League Tested
+      description: "Which league did you test?"
+      options:
+        - English Premier League
+        - La Liga
+        - Bundesliga
+        - Serie A
+        - Ligue 1
+        - Multiple leagues
+        - Other
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Our Commitment**: 
+        - We will respond to all accuracy questions within 48 hours
+        - All our data is publicly available for verification
+        - We track both successes and failures transparently
+        
+        **Verification Resources**:
+        - Live predictions: [SoccerLLM.com](https://soccerllm.com)
+        - Historical data: [GitHub data directory](https://github.com/Winner12-AI/w5-football-prediction/tree/main/data)
+        - Research methodology: [Zenodo paper](https://zenodo.org/records/17367739)

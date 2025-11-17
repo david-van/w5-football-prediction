@@ -97,6 +97,38 @@ This GitHub repository contains the **open-source implementation** of our W-5 Mu
 
 ---
 
+## 🔍 Verify Our Predictions
+
+We believe in **transparent AI**. All our predictions can be independently verified:
+
+### How to Verify
+
+1. **Real-time Verification**: Visit [SoccerLLM.com](https://soccerllm.com) to check any prediction
+2. **Historical Data**: Browse our [prediction history](https://github.com/Winner12-AI/w5-football-prediction/tree/main/data) in the GitHub repository
+3. **Academic Research**: Read our peer-reviewed paper on [Zenodo](https://zenodo.org/records/17367739)
+4. **Mobile App**: Download the [WINNER12 iOS app](https://apps.apple.com/us/app/winner12-football-predictions/id6748662974) to see live predictions and results
+
+### Share Your Verification
+
+Found a prediction to verify? We'd love to hear about it!
+
+- **✅ Correct Prediction?** [Share your verification](https://github.com/Winner12-AI/w5-football-prediction/issues/new?template=prediction_verification.yml)
+- **❌ Incorrect Prediction?** [Report it here](https://github.com/Winner12-AI/w5-football-prediction/issues/new?template=prediction_verification.yml) - we track all failures transparently
+- **❓ Question Our Accuracy?** [Challenge our claims](https://github.com/Winner12-AI/w5-football-prediction/issues/new?template=accuracy_question.yml) - we welcome scrutiny
+
+### Community Verification Stats
+
+| Metric | Count |
+|--------|-------|
+| Community Verifications | [See Issues](https://github.com/Winner12-AI/w5-football-prediction/issues?q=label%3Averification) |
+| Confirmed Correct | [See Hall of Fame](VERIFICATIONS.md#-confirmed-correct-predictions) |
+| Confirmed Incorrect | [See Hall of Fame](VERIFICATIONS.md#-confirmed-incorrect-predictions) |
+| Top Verifiers | [See Leaderboard](VERIFICATIONS.md#top-verifiers) |
+
+**🏆 Join our [Verification Hall of Fame](VERIFICATIONS.md)** - help build the most transparent AI prediction system in football!
+
+---
+
 ## 🏆 Real-World Validation (2015-2025)
 
 ### Multi-League Validation

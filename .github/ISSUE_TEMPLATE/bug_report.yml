@@ -1,0 +1,89 @@
+name: 🐛 Bug Report
+description: Report a bug or issue
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! This helps us improve WINNER12.
+  
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Bug Description
+      description: "What's the bug? Please be as specific as possible."
+      placeholder: "When I try to view predictions for La Liga matches, the app crashes..."
+    validations:
+      required: true
+  
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: "How can we reproduce this bug?"
+      placeholder: |
+        1. Open the WINNER12 iOS app
+        2. Navigate to "Leagues"
+        3. Select "La Liga"
+        4. App crashes
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: "What did you expect to happen?"
+      placeholder: "The app should show La Liga matches and predictions"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual Behavior
+      description: "What actually happened?"
+      placeholder: "The app crashed and returned to home screen"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: "Where did you encounter this bug?"
+      options:
+        - iOS App
+        - Website (winner12.ai)
+        - SoccerLLM.com
+        - GitHub Repository
+        - API
+        - Other
+    validations:
+      required: true
+  
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: "What version are you using?"
+      placeholder: "iOS App v1.0.2, iOS 18.1"
+  
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: "Any other information that might help us fix this bug?"
+      placeholder: "Screenshots, error messages, device model, etc."
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Thank you for reporting!** 🙏
+        
+        We aim to:
+        - Acknowledge all bug reports within 24 hours
+        - Provide a fix timeline within 48 hours
+        - Keep you updated on progress

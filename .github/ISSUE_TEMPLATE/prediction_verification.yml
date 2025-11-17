@@ -1,0 +1,91 @@
+name: 🎯 Prediction Verification
+description: Share your experience verifying WINNER12 predictions
+title: "[Verification] "
+labels: ["verification", "user-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for verifying WINNER12 predictions! Your feedback helps build community trust.
+        
+        All predictions can be verified at [SoccerLLM.com](https://soccerllm.com) or in our [prediction history](https://github.com/Winner12-AI/w5-football-prediction/tree/main/data).
+  
+  - type: dropdown
+    id: match-league
+    attributes:
+      label: League
+      description: Which league did you verify?
+      options:
+        - English Premier League
+        - La Liga
+        - Bundesliga
+        - Serie A
+        - Ligue 1
+        - Champions League
+        - Other
+    validations:
+      required: true
+  
+  - type: input
+    id: match-details
+    attributes:
+      label: Match Details
+      description: "Example: Arsenal vs Liverpool, 2025-11-15"
+      placeholder: "Team A vs Team B, YYYY-MM-DD"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: prediction-accuracy
+    attributes:
+      label: Was the prediction correct?
+      options:
+        - "✅ Yes, prediction was correct"
+        - "❌ No, prediction was wrong"
+        - "⚠️ Partially correct (e.g., correct winner but wrong score)"
+    validations:
+      required: true
+  
+  - type: input
+    id: ai-prediction
+    attributes:
+      label: AI Prediction
+      description: "What did WINNER12 predict?"
+      placeholder: "Arsenal win (58% confidence)"
+    validations:
+      required: true
+  
+  - type: input
+    id: actual-result
+    attributes:
+      label: Actual Result
+      description: "What was the actual match result?"
+      placeholder: "Arsenal 2-1 Liverpool"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: comments
+    attributes:
+      label: Additional Comments
+      description: "Any other observations or feedback?"
+      placeholder: "The AI correctly predicted Arsenal's home advantage. The confidence level seemed appropriate given the teams' recent form..."
+  
+  - type: checkboxes
+    id: verification-source
+    attributes:
+      label: Verification Source
+      description: How did you verify this prediction?
+      options:
+        - label: "SoccerLLM.com"
+        - label: "WINNER12 iOS App"
+        - label: "GitHub repository data"
+        - label: "Other (please specify in comments)"
+  
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **Thank you for contributing to transparency!** 🙏
+        
+        Your verification will be added to our [Verification Hall of Fame](https://github.com/Winner12-AI/w5-football-prediction/blob/main/VERIFICATIONS.md).
