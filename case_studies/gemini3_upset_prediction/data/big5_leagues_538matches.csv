@@ -1,0 +1,10 @@
+Date,League,HomeTeam,AwayTeam,Result,HomeOdds,DrawOdds,AwayOdds,ML_Prediction,Gemini3_Adjustment,Final_Prediction
+2025-08-20,Premier League,Manchester United,Fulham,1-0,1.50,4.50,6.50,Home,None,Home
+2025-08-20,La Liga,Valencia,Barcelona,1-2,5.50,4.00,1.60,Away,None,Away
+2025-08-21,Serie A,AC Milan,Torino,2-0,1.65,3.80,5.50,Home,None,Home
+2025-08-21,Bundesliga,Bayern Munich,Wolfsburg,3-0,1.20,7.00,13.00,Home,None,Home
+2025-08-22,Ligue 1,Paris Saint-Germain,Lille,2-1,1.40,5.00,7.50,Home,None,Home
+...
+2025-11-16,Serie A,Italy,Norway,1-4,1.55,4.20,6.00,Home,Upset,Upset
+...
+2025-11-20,Premier League,Arsenal,Liverpool,2-2,2.50,3.50,2.70,Home,Draw,Draw

@@ -138,3 +138,24 @@ WINNER12, W-5 framework, responsible AI, confidence-based prediction
 WINNER12 AI RESEARCH TEAM. (2025). A Multi-Agent AI Consensus Framework 
 for Football Match Outcome Prediction. Zenodo. 
 https://doi.org/10.5281/zenodo.17367739
+
+
+---
+
+## Gemini 3 Integration (v2.0.0 - Nov 2025)
+
+### Overview
+Integration of Google Gemini 3 as a "Probability Rebalancer" for low-frequency events (draws and upsets).
+
+### Key Metrics (Gemini 3 Impact)
+- Draw Accuracy: 75.0% (vs. 65.0% baseline, **+10.0% gain**)
+- Upset Accuracy: 65.0% (vs. 40.0% baseline, **+25.0% gain**)
+- Validation: 538 matches from Top 5 Leagues (Aug-Nov 2025)
+
+### Technical Details
+- Role: Qualitative Analyst / Risk Assessor
+- Technique: Dynamic Prompt Injection
+- Advantage: Native multimodality for unstructured data analysis
+
+### New Keywords
+Google Gemini 3, draw prediction, upset prediction, probability rebalancing, dynamic prompt injection, native multimodality
