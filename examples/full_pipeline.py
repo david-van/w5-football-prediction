@@ -90,37 +90,44 @@ def main():
         {'persona_type': 'tactician', 'llm_provider': 'anthropic', 'model_name': 'claude-3-opus'},
         {'persona_type': 'sentiment_analyst', 'llm_provider': 'google', 'model_name': 'gemini-pro'}
     ]
+    agent_configs = [
+        {'persona_type': 'statistician', 'llm_provider': 'openai', 'model_name': 'gpt-5.4'},
+        {'persona_type': 'tactician', 'llm_provider': 'anthropic', 'model_name': 'claude-opus-4-6'},
+        {'persona_type': 'sentiment_analyst', 'llm_provider': 'google', 'model_name': 'gemini-3.1-pro-high'},
+        # {'persona_type': 'news_analyst', 'llm_provider': 'openai', 'model_name': 'gpt-5.4'},
+        # {'persona_type': 'risk_assessor', 'llm_provider': 'anthropic', 'model_name': 'claude-opus-4-6'}
+    ]
     
-    try:
-        consensus_engine = ConsensusEngine(
-            agent_configs=agent_configs,
-            debate_rounds=2,
-            min_agents=3
-        )
+    # try:
+    consensus_engine = ConsensusEngine(
+        agent_configs=agent_configs,
+        debate_rounds=2,
+        min_agents=3
+    )
+
+    consensus_result = consensus_engine.run_consensus(
+        match_data,
+        baseline_prediction
+    )
+
+    print("\nConsensus Result:")
+    consensus_pred = consensus_result['consensus_prediction']
+    print(f"  Home Win: {consensus_pred['home_win']:.1%}")
+    print(f"  Draw:     {consensus_pred['draw']:.1%}")
+    print(f"  Away Win: {consensus_pred['away_win']:.1%}")
+    print(f"\nOverall Confidence: {consensus_result['confidence']:.1%}")
+    print(f"Agreement Score: {consensus_result['agreement_score']:.2f}")
+    print()
+
+    print("Debate Summary:")
+    print("-"*70)
+    print(consensus_result['debate_summary'])
+    print()
         
-        consensus_result = consensus_engine.run_consensus(
-            match_data,
-            baseline_prediction
-        )
-        
-        print("\nConsensus Result:")
-        consensus_pred = consensus_result['consensus_prediction']
-        print(f"  Home Win: {consensus_pred['home_win']:.1%}")
-        print(f"  Draw:     {consensus_pred['draw']:.1%}")
-        print(f"  Away Win: {consensus_pred['away_win']:.1%}")
-        print(f"\nOverall Confidence: {consensus_result['confidence']:.1%}")
-        print(f"Agreement Score: {consensus_result['agreement_score']:.2f}")
-        print()
-        
-        print("Debate Summary:")
-        print("-"*70)
-        print(consensus_result['debate_summary'])
-        print()
-        
-    except Exception as e:
-        print(f"Error running consensus: {e}")
-        print("Using baseline prediction only.")
-        consensus_result = None
+    # except Exception as e:
+    #     print(f"Error running consensus: {e}")
+    #     print("Using baseline prediction only.")
+    #     consensus_result = None
     
     # Step 3: Meta-Learning Fusion
     print("="*70)

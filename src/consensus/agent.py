@@ -117,14 +117,16 @@ scenarios where outcomes are particularly uncertain."""
         
         if self.llm_provider == 'openai':
             from openai import OpenAI
-            self._client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+            self._client = OpenAI(base_url=os.getenv('OPENAI_API_BASE_URL'),api_key=os.getenv('OPENAI_API_KEY'))
         elif self.llm_provider == 'anthropic':
             from anthropic import Anthropic
-            self._client = Anthropic(api_key=os.getenv('ANTHROPIC_API_KEY'))
+            self._client = Anthropic(base_url=os.getenv('ANTHROPIC_API_BASE_URL'),api_key=os.getenv('ANTHROPIC_API_KEY'))
         elif self.llm_provider == 'google':
-            import google.generativeai as genai
-            genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
-            self._client = genai
+            from openai import OpenAI
+            self._client = OpenAI(base_url=os.getenv('GOOGLE_API_BASE_URL'),api_key=os.getenv('GOOGLE_API_KEY'))
+            # import google.generativeai as genai
+            # genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+            # self._client = genai
         else:
             raise ValueError(f"Unsupported provider: {self.llm_provider}")
     
@@ -242,17 +244,22 @@ scenarios where outcomes are particularly uncertain."""
                 return response.content[0].text
             
             elif self.llm_provider == 'google':
-                model = self._client.GenerativeModel(self.model_name)
-                response = model.generate_content(
-                    f"{self.persona.system_prompt}\n\n{prompt}",
-                    generation_config={'temperature': self.temperature}
+                response = self._client.chat.completions.create(
+                    model=self.model_name,
+                    messages=[
+                        {"role": "system", "content": self.persona.system_prompt},
+                        {"role": "user", "content": prompt}
+                    ],
+                    temperature=self.temperature,
+                    max_tokens=1500
                 )
-                return response.text
+                return response.choices[0].message.content
             
         except Exception as e:
             # Fallback to mock response for demonstration
             print(f"LLM query failed: {e}. Using mock response.")
-            return self._mock_response()
+            # return self._mock_response()
+            raise e
     
     def _parse_response(self, response: str) -> Dict[str, Any]:
         """Parse the LLM response into structured format."""
@@ -285,30 +292,31 @@ scenarios where outcomes are particularly uncertain."""
                 }
         except Exception as e:
             print(f"Failed to parse response: {e}")
+            raise e
         
         # Fallback to default
-        return {
-            'prediction': {'home_win': 0.4, 'draw': 0.3, 'away_win': 0.3},
-            'confidence': 0.5,
-            'reasoning': 'Analysis unavailable',
-            'key_factors': []
-        }
+        # return {
+        #     'prediction': {'home_win': 0.4, 'draw': 0.3, 'away_win': 0.3},
+        #     'confidence': 0.5,
+        #     'reasoning': 'Analysis unavailable',
+        #     'key_factors': []
+        # }
     
-    def _mock_response(self) -> str:
-        """Generate a mock response for testing without API access."""
-        import random
-        
-        # Generate random probabilities
-        probs = [random.random() for _ in range(3)]
-        total = sum(probs)
-        probs = [p / total for p in probs]
-        
-        return json.dumps({
-            'home_win_probability': probs[0],
-            'draw_probability': probs[1],
-            'away_win_probability': probs[2],
-            'confidence': random.uniform(0.6, 0.9),
-            'reasoning': f'Mock analysis from {self.persona.name}',
-            'key_factors': ['Factor A', 'Factor B', 'Factor C']
-        })
+    # def _mock_response(self) -> str:
+    #     """Generate a mock response for testing without API access."""
+    #     import random
+    #
+    #     # Generate random probabilities
+    #     probs = [random.random() for _ in range(3)]
+    #     total = sum(probs)
+    #     probs = [p / total for p in probs]
+    #
+    #     return json.dumps({
+    #         'home_win_probability': probs[0],
+    #         'draw_probability': probs[1],
+    #         'away_win_probability': probs[2],
+    #         'confidence': random.uniform(0.6, 0.9),
+    #         'reasoning': f'Mock analysis from {self.persona.name}',
+    #         'key_factors': ['Factor A', 'Factor B', 'Factor C']
+    #     })
 

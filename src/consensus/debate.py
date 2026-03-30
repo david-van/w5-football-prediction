@@ -40,11 +40,11 @@ class ConsensusEngine:
         if agent_configs is None:
             # Default configuration with 5 agents
             agent_configs = [
-                {'persona_type': 'statistician', 'llm_provider': 'openai', 'model_name': 'gpt-4'},
-                {'persona_type': 'tactician', 'llm_provider': 'anthropic', 'model_name': 'claude-3-opus'},
-                {'persona_type': 'sentiment_analyst', 'llm_provider': 'google', 'model_name': 'gemini-pro'},
-                {'persona_type': 'news_analyst', 'llm_provider': 'openai', 'model_name': 'gpt-4'},
-                {'persona_type': 'risk_assessor', 'llm_provider': 'anthropic', 'model_name': 'claude-3-opus'}
+                {'persona_type': 'statistician', 'llm_provider': 'openai', 'model_name': 'gpt-5.4'},
+                {'persona_type': 'tactician', 'llm_provider': 'anthropic', 'model_name': 'claude-opus-4-6'},
+                {'persona_type': 'sentiment_analyst', 'llm_provider': 'google', 'model_name': 'gemini-3.1-pro-high'},
+                {'persona_type': 'news_analyst', 'llm_provider': 'openai', 'model_name': 'gpt-5.4'},
+                {'persona_type': 'risk_assessor', 'llm_provider': 'anthropic', 'model_name': 'claude-opus-4-6'}
             ]
         
         for config in agent_configs:
