@@ -13,14 +13,15 @@ from pathlib import Path
 class MatchDataLoader:
     """
     Loader for football match data.
-    
+
     Handles loading, validation, and basic preprocessing of match datasets.
+    Supports both demo_matches.csv and features.csv (from feature_pipeline).
     """
-    
+
     REQUIRED_COLUMNS = [
         'match_id', 'home_team', 'away_team', 'outcome'
     ]
-    
+
     OUTCOME_MAPPING = {
         'H': 0,  # Home win
         'D': 1,  # Draw
@@ -29,11 +30,11 @@ class MatchDataLoader:
         1: 1,
         2: 2
     }
-    
+
     def __init__(self, data_dir: str = 'data/sample'):
         """
         Initialize the data loader.
-        
+
         Args:
             data_dir: Directory containing data files
         """
@@ -154,13 +155,17 @@ class FeatureEngineering:
     ) -> pd.Series:
         """
         Compute recent form (win rate over last N matches).
-        
+
+        For full feature engineering from raw D1 data, use
+        src.data.feature_pipeline.FeaturePipeline instead.
+        This method is kept for backward compatibility with demo data.
+
         Args:
             df: Match dataframe
             team_col: Column name for team
             outcome_col: Column name for outcome
             window: Number of recent matches to consider
-            
+
         Returns:
             Series with form scores
         """
