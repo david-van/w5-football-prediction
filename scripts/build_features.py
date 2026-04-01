@@ -12,10 +12,18 @@ import argparse
 import sys
 import os
 
-# Allow running from project root
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+# Project root = parent of scripts/
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, PROJECT_ROOT)
 
 from src.data.feature_pipeline import FeaturePipeline
+
+
+def _resolve(path: str) -> str:
+    """Turn a relative path into an absolute one based on project root."""
+    if os.path.isabs(path):
+        return path
+    return os.path.join(PROJECT_ROOT, path)
 
 
 def main():
@@ -39,8 +47,8 @@ def main():
 
     pipeline = FeaturePipeline()
     pipeline.run(
-        data_dir=args.data_dir,
-        output_path=args.output,
+        data_dir=_resolve(args.data_dir),
+        output_path=_resolve(args.output),
         mode=args.mode,
     )
 
